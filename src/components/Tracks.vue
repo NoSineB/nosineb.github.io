@@ -82,6 +82,12 @@ h1{
 
 <script setup>
 import { ref } from 'vue';
+import goal2 from "../assets/images/goal2.png"
+import goal13 from "../assets/images/goal13.png"
+import goal7 from "../assets/images/goal7.png"
+import goal6 from "../assets/images/goal6.png"
+import goal12 from "../assets/images/goal12.png"
+import disasterManagement from "../assets/images/disasterManagement.png"
 
 
 const tracks = ref([
@@ -94,7 +100,7 @@ const tracks = ref([
             `A system for distributing nutritious food.`,
             `A mechanism to manage wastage of food.`
         ],
-        imgSrc: '/src/assets/images/goal2.png',
+        imgSrc: goal2,
         active: false
     },
     {
@@ -107,7 +113,7 @@ const tracks = ref([
             `Strengthen resilience and adaptive capacity to climate-related hazards and natural disasters worldwide.`,
             `Promote mechanisms for raising capacity for effective climate change-related planning and management.`
         ],
-        imgSrc: '/src/assets/images/goal13.png',
+        imgSrc: goal13,
         active: false
     },
     {
@@ -120,7 +126,7 @@ const tracks = ref([
             `Improve energy efficiency.`,
             `Expand infrastructure and upgrade technology for supplying modern and sustainable energy services.`
         ],
-        imgSrc: '/src/assets/images/goal7.png',
+        imgSrc: goal7,
         active: false
     },
     {
@@ -135,7 +141,7 @@ const tracks = ref([
             `Safeguard and restore water-related ecosystems.`,
             `Expand water and sanitation support in remote areas.`
         ],
-        imgSrc: '/src/assets/images/goal6.png',
+        imgSrc: goal6,
         active: false
     },
     {
@@ -149,7 +155,7 @@ const tracks = ref([
             `Strengthen waste management and disposal policies.`,
             `Educate and empower consumers to make sustainable choices.`
         ],
-        imgSrc: '/src/assets/images/goal12.png',
+        imgSrc: goal12,
         active: false
     },
     {
@@ -162,7 +168,7 @@ const tracks = ref([
             `Empower communities to build resilience through education, training, and planning.`,
             `Create innovative solutions for temporary shelters, emergency housing, and essential infrastructure in disaster-affected areas.`,
         ],
-        imgSrc: '/src/assets/images/disasterManagement.png',
+        imgSrc: disasterManagement,
         active: false
     }
 ]);
